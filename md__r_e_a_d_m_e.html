@@ -84,15 +84,19 @@ Requirements</h1>
 Workflows</h1>
 <h2><a class="anchor" id="autotoc_md9"></a>
 Generating a grid</h2>
-<p ><b>TODO: ADD IMAGES FROM GIST</b></p>
-<p >To generate a grid, create an empty GameObject and attach a <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> script component.</p>
+<p >To generate a grid, create an empty GameObject.</p>
+<p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/new-hex-grid-gameobject.png?raw=true" alt="new hex grid object" class="inline"/></p>
+<p >Add a <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> script component from the HexGrid package.</p>
+<p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/add-hex-grid-script.png?raw=true" alt="add hex grid script" class="inline"/></p>
 <p >The <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> maintains references to <code><a class="el" href="class_hex.html">Hex</a> Tiles</code>, and is responsible generating the grid from a grid generator. By default, <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> generates on Start.</p>
 <p >Create a new C# script for the grid generator, that implements both <code>MonoBehavior</code> and <code>IGridGenerator</code>.</p>
 <p >The grid generator holds any references to grid settings (size, orientation) and <code><a class="el" href="class_hex.html">Hex</a> Tile</code> components (materials, prefabs, etc). For example grid generators, see: Samples</p>
+<p >The finished GameObject would look similar to this. In this case the grid generator has a material and two <code><a class="el" href="class_hex.html">Hex</a></code> fields for generating the grid.</p>
+<p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/completed-hex-grid-gameobject.png?raw=true" alt="completed hex grid" class="inline"/></p>
 <p >Play the scene, and the <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> generates grid at runtime.</p>
 <h1><a class="anchor" id="autotoc_md10"></a>
 Reference</h1>
-<p >See documentation at <b>TODO: ADD LINK</b></p>
+<p ><a href="https://michaeljbradley.github.io/hex-grid-docs/index.html">API reference</a></p>
 <h1><a class="anchor" id="autotoc_md11"></a>
 Samples</h1>
 <p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> includes samples to demonstrate most, if not all available features. Each sample includes a README with more information.</p>
