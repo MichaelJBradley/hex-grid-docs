@@ -69,10 +69,10 @@ $(function() {
 <div class="textblock"><p >A Unity package designed to implement a hex grid for use as a map or anything else!</p>
 <h1><a class="anchor" id="autotoc_md5"></a>
 Overview</h1>
-<p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> supports the open ended generation of hex grids by handling the hex tile GameObject creation. It is meant to be as flexible as possible, so users must write the logic to generate a hex grid. <a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a>, however, handles the underlying hex tile GameObject creation.</p>
+<p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> supports the open ended generation of hex grids by handling the hex tile GameObject creation. It is meant to be as flexible as possible, so users must write the logic to generate a hex grid. <a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a>, handles the underlying hex tile GameObject creation.</p>
 <h1><a class="anchor" id="autotoc_md6"></a>
 Installation instructions</h1>
-<p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> conforms to Unity's package standards, so it can be installed using Unity's package manager.</p>
+<p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> adheres to Unity's package standards, so it can be installed using Unity's package manager.</p>
 <p >This package does not exist in a registry. The two options are either</p><ul>
 <li><a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html">Install from GitHub</a></li>
 <li>Download the latest release and <a href="https://docs.unity3d.com/Manual/upm-ui-tarball.html">install from tarball</a></li>
@@ -86,14 +86,14 @@ Workflows</h1>
 Generating a grid</h2>
 <p >To generate a grid, create an empty GameObject.</p>
 <p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/new-hex-grid-gameobject.png?raw=true" alt="new hex grid object" class="inline"/></p>
-<p >Add a <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> script component from the HexGrid package.</p>
+<p >Add a <code>HexGrid</code> script component from the HexGrid package.</p>
 <p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/add-hex-grid-script.png?raw=true" alt="add hex grid script" class="inline"/></p>
-<p >The <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> maintains references to <code><a class="el" href="class_hex.html">Hex</a> Tiles</code>, and is responsible generating the grid from a grid generator. By default, <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> generates on Start.</p>
+<p >The <code>HexGrid</code> maintains references to <code><a class="el" href="class_hex_tile.html">HexTile</a></code>s, and is responsible generating the grid from a grid generator. By default, <code>HexGrid</code> generates on Start.</p>
 <p >Create a new C# script for the grid generator, that implements both <code>MonoBehavior</code> and <code>IGridGenerator</code>.</p>
-<p >The grid generator holds any references to grid settings (size, orientation) and <code><a class="el" href="class_hex.html">Hex</a> Tile</code> components (materials, prefabs, etc). For example grid generators, see: Samples</p>
+<p >The grid generator holds any references to grid settings (size, orientation) and <code><a class="el" href="class_hex_tile.html">HexTile</a></code> components (materials, prefabs, etc). For example grid generators, see: Samples</p>
 <p >The finished GameObject would look similar to this. In this case the grid generator has a material and two <code><a class="el" href="class_hex.html">Hex</a></code> fields for generating the grid.</p>
 <p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/completed-hex-grid-gameobject.png?raw=true" alt="completed hex grid" class="inline"/></p>
-<p >Play the scene, and the <code><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a></code> generates grid at runtime.</p>
+<p >Play the scene, and the <code>HexGrid</code> generates grid at runtime.</p>
 <h1><a class="anchor" id="autotoc_md10"></a>
 Reference</h1>
 <p ><a href="https://michaeljbradley.github.io/hex-grid-docs/index.html">API reference</a></p>
@@ -107,8 +107,8 @@ Samples</h1>
 <td class="markdownTableBodyNone"><a href="https://github.com/MichaelJBradley/hex-grid/tree/master/Samples%7E/PistonsOnHexes">Pistons on hexes</a>   </td><td class="markdownTableBodyNone">- Hexagonal grid generation<br  />
  - Generating grids from prefabs    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="https://github.com/MichaelJBradley/hex-grid/tree/master/Samples%7E/RandomlySelectingHexes">Randomly selecting hexes</a>   </td><td class="markdownTableBodyNone">- Generating <code><a class="el" href="class_hex.html">Hex</a> Tiles</code> at runtime<br  />
- - Selecting <code><a class="el" href="class_hex.html">Hex</a> Tiles</code> by hex position   </td></tr>
+<td class="markdownTableBodyNone"><a href="https://github.com/MichaelJBradley/hex-grid/tree/master/Samples%7E/RandomlySelectingHexes">Randomly selecting hexes</a>   </td><td class="markdownTableBodyNone">- Generating <code><a class="el" href="class_hex_tile.html">HexTile</a></code>s at runtime<br  />
+ - Selecting <code><a class="el" href="class_hex_tile.html">HexTile</a></code>s by hex position   </td></tr>
 </table>
 <h1><a class="anchor" id="autotoc_md12"></a>
 Credits</h1>
