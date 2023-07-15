@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['this_5buint_20i_5d_0',['this[uint i]',['../class_float_hex.html#a6a8c43f51cff097933841fc0b456b8d0',1,'FloatHex.this[uint i]()'],['../class_hex.html#af3a7660c0aea42c25e06508af9e0b8cb',1,'Hex.this[uint i]()']]]
+  ['s_0',['S',['../class_float_hex.html#a2cb2b18dd314d5b79f1cec9b504d7f8d',1,'FloatHex.S()'],['../class_hex.html#aaa979f908d665f39ce7c40e7abab8134',1,'Hex.S()']]]
 ];

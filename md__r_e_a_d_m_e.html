@@ -80,9 +80,12 @@ Installation instructions</h1>
 <h1><a class="anchor" id="autotoc_md7"></a>
 Requirements</h1>
 <p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> has been tested with Unity 2021.3.2f1, but may be compatible with other releases.</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Dependencies</h2>
+<p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> depends on the <a href="https://openupm.com/packages/com.rotaryheart.serializabledictionarylite/">SerializableDictionaryLite</a> package to display dictionaries in the editor.</p>
+<h1><a class="anchor" id="autotoc_md9"></a>
 Workflows</h1>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 Generating a grid</h2>
 <p >To generate a grid, create an empty GameObject.</p>
 <p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/new-hex-grid-gameobject.png?raw=true" alt="new hex grid object" class="inline"/></p>
@@ -94,10 +97,10 @@ Generating a grid</h2>
 <p >The finished GameObject would look similar to this. In this case the grid generator has a material and two <code><a class="el" href="class_hex.html">Hex</a></code> fields for generating the grid.</p>
 <p ><img src="https://github.com/MichaelJBradley/hex-grid-docs/blob/main/images/readme/workflow/completed-hex-grid-gameobject.png?raw=true" alt="completed hex grid" class="inline"/></p>
 <p >Play the scene, and the <code>HexGrid</code> generates grid at runtime.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md11"></a>
 Reference</h1>
 <p ><a href="https://michaeljbradley.github.io/hex-grid-docs/index.html">API reference</a></p>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md12"></a>
 Samples</h1>
 <p ><a class="el" href="class_hex.html">Hex</a> <a class="el" href="namespace_grid.html">Grid</a> includes samples to demonstrate most, if not all available features. Each sample includes a README with more information.</p>
 <table class="markdownTable">
@@ -108,9 +111,12 @@ Samples</h1>
  - Generating grids from prefabs    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://github.com/MichaelJBradley/hex-grid/tree/master/Samples%7E/RandomlySelectingHexes">Randomly selecting hexes</a>   </td><td class="markdownTableBodyNone">- Generating <code><a class="el" href="class_hex_tile.html">HexTile</a></code>s at runtime<br  />
- - Selecting <code><a class="el" href="class_hex_tile.html">HexTile</a></code>s by hex position   </td></tr>
+ - Selecting <code><a class="el" href="class_hex_tile.html">HexTile</a></code>s by hex position    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/MichaelJBradley/hex-grid/tree/master/Samples%7E/HexTileProperties">HexTile properties</a>   </td><td class="markdownTableBodyNone">- Rectangular grid generation<br  />
+ - <code><a class="el" href="class_hex_tile.html">HexTile</a></code> properties from <code>ScriptableObjects</code>   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md12"></a>
+<h1><a class="anchor" id="autotoc_md13"></a>
 Credits</h1>
 <p >A great deal of this code was lovingly <strike>stolen</strike> adapted from Red Blob Games' <a href="https://www.redblobgames.com/grids/hexagons/implementation.html">Implementation of Hex Grids</a>. </p>
 </div></div><!-- contents -->

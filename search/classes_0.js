@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['exception_0',['Exception',['https://docs.microsoft.com/en-us/dotnet/api/system.exception',1,'System']]]
+  ['dictboolean_0',['DictBoolean',['../class_dict_boolean.html',1,'']]],
+  ['dictint32_1',['DictInt32',['../class_dict_int32.html',1,'']]],
+  ['dictsingle_2',['DictSingle',['../class_dict_single.html',1,'']]]
 ];

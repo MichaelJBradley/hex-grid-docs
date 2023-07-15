@@ -6,5 +6,8 @@ var searchData=
   ['hexexception_3',['HexException',['../class_hex_exception.html',1,'']]],
   ['hexgrid_4',['HexGrid',['../class_grid_1_1_hex_grid.html',1,'Grid']]],
   ['hextile_5',['HexTile',['../class_hex_tile.html',1,'']]],
-  ['hexuv_6',['HexUv',['../class_hex_uv.html',1,'']]]
+  ['hextilepropertiesboolean_6',['HexTilePropertiesBoolean',['../class_hex_tile_properties_boolean.html',1,'']]],
+  ['hextilepropertiesint32_7',['HexTilePropertiesInt32',['../class_hex_tile_properties_int32.html',1,'']]],
+  ['hextilepropertiessingle_8',['HexTilePropertiesSingle',['../class_hex_tile_properties_single.html',1,'']]],
+  ['hexuv_9',['HexUv',['../class_hex_uv.html',1,'']]]
 ];

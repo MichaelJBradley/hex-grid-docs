@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['floathex_0',['FloatHex',['../class_float_hex.html',1,'']]]
+  ['exception_0',['Exception',['https://docs.microsoft.com/en-us/dotnet/api/system.exception',1,'System']]]
 ];
